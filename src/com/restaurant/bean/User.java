@@ -4,6 +4,13 @@ public class User {
 	private String username;
 	private String password;
 	private int status;
+	private String userType;
+	public String getUserType() {
+		return userType;
+	}
+	public void setUserType(String userType) {
+		this.userType = userType;
+	}
 	public String getUsername() {
 		return username;
 	}

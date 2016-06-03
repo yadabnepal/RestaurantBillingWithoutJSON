@@ -5,7 +5,7 @@
 
 <div class="login-page">
 <div class="form">
-<form:form method="POST" action="/RestaurantBilling/userRegistration">
+<form:form method="POST" action="/RestaurantBilling/userRegistration" modelAttribute="SpringWeb">
   <form:input path="username" class="input" placeholder="Username" />
   <form:input path="password" type="password" class="input" placeholder="Password" />
   <input type="password" class="input" placeholder="Confirm Password" />
